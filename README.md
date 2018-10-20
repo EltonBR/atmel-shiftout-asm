@@ -2,7 +2,7 @@
 simple lib to use shiftout 74hc595 on atmel microcontrolers writen in assembly to use in C
 
 open libshiftout.s to configure used ports and pins
-```
+```C
 #define SOPORT PORTB //port used by lib
 #define SODDR DDRB //data direction register of port used by lib
 #define SOCLOCK 0 //clock bit
